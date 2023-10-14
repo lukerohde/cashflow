@@ -4,9 +4,7 @@ services:
     build:
       context: .
       dockerfile: ./app.dockerfile
-    restart: unless-stopped
-    environment:
-      - APP_PORT
+    restart: 'no'
     tty: true
     stdin_open: true
     command: "python start.py"

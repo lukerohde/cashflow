@@ -34,4 +34,11 @@ Shell into the python app container
 docker-compose exec app /bin/bash
 ```
 
-Once shelled in you can run `python3 start.py` etc...
+Once shelled in you can install packages 
+
+`pip install --user -r ./requirements.txt`
+
+then run 
+
+ `python3 start.py` etc...
+

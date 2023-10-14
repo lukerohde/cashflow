@@ -13,5 +13,4 @@ networks:
   development:
 volumes:
   app_user:
-  db_root:
   

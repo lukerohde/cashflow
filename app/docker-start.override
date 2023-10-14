@@ -3,7 +3,8 @@
 
 echo -------------------------------------------------------------
 echo Running $0.  This hangs the container and so you can shell in
-echo \# docker-compose up www \&\& docker-compose exec /bin/bash
+echo \# docker-compose exec app /bin/bash
+echo \# pip install --user -r ./requirements.txt
 echo \# python start.py
 echo -------------------------------------------------------------
 
