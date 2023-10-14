@@ -29,7 +29,13 @@ cp docker-compose.override.yml.example docker-compose.override.yml
 
 The provided docker-compose.override.yaml.example file will not actually run your app.  Instead it runs docker-start.override that hangs the container to leave it running so you can shell in and run your application yourself.  This makes debugging easy.  
 
-Shell into the python app container
+Run the container with the new override file that hangs it for development
+```
+docker-compose up app
+```
+
+In another terminal, shell into the python app container
+
 ```
 docker-compose exec app /bin/bash
 ```
