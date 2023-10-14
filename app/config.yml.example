@@ -1,0 +1,43 @@
+opening_balance: 2000
+start_date: '2023-10-13'
+end_date: '2024-10-13'
+weekly_expense:
+  6: 
+    groceries: 150
+    spending: 500
+    dining_out: 200
+    transportation: 100
+
+weekly_income: {}
+
+fortnightly_income:
+  '2023-10-11': 
+    wife_salary: 3500
+
+fortnightly_expense:
+  '2023-10-12':
+    holiday_savings: 700
+    fire_savings: 4700
+    gadget_savings: 500
+
+monthly_expense:
+  2:
+    gym_membership: 100
+  5:
+    mobile: 80
+  12:
+    health_insurance: 500
+  15:
+    broadband: 70
+    streaming_services: 50
+  17:
+    rent: 4500
+    utilities: 150
+  20:
+    rental_insurance: 30
+  22:
+    student_loan: 300
+
+monthly_income:
+  15:
+    my_salary: 15000

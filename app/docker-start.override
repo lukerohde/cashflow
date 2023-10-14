@@ -1,0 +1,15 @@
+#!/bin/sh
+#pip install --user -r ./requirements.txt
+
+echo -------------------------------------------------------------
+echo Running $0.  This hangs the container and so you can shell in
+echo \# docker-compose up www \&\& docker-compose exec /bin/bash
+echo \# python start.py
+echo -------------------------------------------------------------
+
+# THIS KEEPS THE CONTAINER RUNNING
+# AND GRACEFULLY KILLS IT TOO
+trap "echo $0 gracefully shutting down... && pkill python" TERM INT
+tail -f /dev/null &
+wait 
+EXIT_STATUS=$?

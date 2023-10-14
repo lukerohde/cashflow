@@ -1,0 +1,9 @@
+docker-compose.override.yml
+.env
+__pycache__
+.packages
+.notebook
+.pg_data
+config.yml
+output.png
+

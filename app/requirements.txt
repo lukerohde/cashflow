@@ -1,0 +1,9 @@
+ipdb
+# console stuff
+click
+requests
+
+# django stuff
+pyyaml
+matplotlib
+
